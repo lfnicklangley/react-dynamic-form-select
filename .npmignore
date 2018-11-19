@@ -1,0 +1,10 @@
+
+.idea/
+.code/
+.vscode/
+src/
+
+.babelrc
+.gitignore
+.DS_Store
+
