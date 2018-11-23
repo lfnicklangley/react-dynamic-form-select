@@ -1,5 +1,5 @@
 {
-  "name": "@ninetynine/react-dynamic-select",
+  "name": "@ninetynine/react-dynamic-form-select",
   "version": "1.0.0",
   "description": "An addon to the react-dynamic-form-builder repository created by langleyfoxall",
   "main": "dist/select.js",
