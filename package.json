@@ -1,8 +1,8 @@
 {
   "name": "@ninetynine/react-dynamic-form-select",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An addon to the react-dynamic-form-builder repository created by langleyfoxall",
-  "main": "dist/select.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./node_modules/@babel/cli/bin/babel src/ --out-dir dist/",
@@ -10,8 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/ninetynine/react-dynamic-select"
+    "url": "git+https://github.com/ninetynine/react-dynamic-select"
   },
+  "bugs": "https://github.com/ninetynine/react-dynamic-select/issues",
+  "homepage": "https://github.com/ninetynine/react-dynamic-select#readme",
   "keywords": [
     "react",
     "addon",
@@ -21,13 +23,6 @@
   ],
   "author": "Dexter Marks-Barber <dexter@marks-barber.co.uk>",
   "license": "ISC",
-  "peerDependencies": {
-    "@ninetynine/util": "^1.0.0",
-    "classnames": "^2.2.6",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.0",
-    "react-select": "^2.1.1"
-  },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
