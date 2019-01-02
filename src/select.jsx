@@ -29,8 +29,13 @@ class FormSelect extends React.Component {
         }
     }
 
-    internalSelect({ value }) {
+    internalSelect(data) {
         const { options } = this.props;
+        let value = null;
+
+        if (typeof data === 'object' && data !== null) {
+            value = data.value;
+        }
 
         Util.internalSelect(
             this.props,
