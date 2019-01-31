@@ -7,7 +7,7 @@
   <br />
 </h1>
 
-<h5 align="center"><code>form-select</code> is an addon package to help implement [`react-select`][react-select] into [`react-dynamic-form-builder`][react-dynamic-form-builder].</h5>
+<h5 align="center"><code>form-select</code> is an addon package to help implement `react-select` into `react-dynamic-form-builder`.</h5>
 <p align="center">
   <a href="https://www.npmjs.com/package/@ninetynine/react-dynamic-form-select">
     <img src="https://badgen.net/npm/v/@ninetynine/react-dynamic-form-select" />
