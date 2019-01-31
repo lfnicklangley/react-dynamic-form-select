@@ -53,7 +53,7 @@ yarn add @ninetynine/react-dynamic-form-select
 
 ## Usage
 
-`form-select` is an addon package for [`react-dynamic-form-builder`][react-dynamic-form-builder] that provides a helper for [`react-select`][react-select]. Make sure you react the `react-dynamic-form-builder` [documentation][react-dynamic-form-builder] before continuing. This package currently provides: `Select` and `Creatable` which both refer to types of selects from the `react-select` [documentation][react-select].
+`form-select` is an addon package for [`react-dynamic-form-builder`][react-dynamic-form-builder] that provides a helper for [`react-select`][react-select]. Make sure you read the `react-dynamic-form-builder` [documentation][react-dynamic-form-builder] before continuing. This package currently provides: `Select` and `Creatable` which both refer to types of selects from the `react-select` [documentation][react-select].
 
 When creating a custom render for an input be sure to pass at least the following props:
 
@@ -62,6 +62,8 @@ When creating a custom render for an input be sure to pass at least the followin
 * `value`
 * `options`
 * `onChange`
+
+To pass props directly to `react-select` use the `selectProps` prop.
 
 ### Select
 
