@@ -1,6 +1,6 @@
 {
   "name": "@ninetynine/react-dynamic-form-select",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "An addon to the react-dynamic-form-builder repository created by langleyfoxall",
   "main": "dist/index.js",
   "scripts": {
@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "@ninetynine/util": "^2.1.1",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
