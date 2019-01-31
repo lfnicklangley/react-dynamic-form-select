@@ -94,10 +94,10 @@ export default [
     render: ({ name, placeholder }, value, onChange) => (
       <Select
         name={name}
+        placeholder={placeholder}
         value={value}
         onChange={onChange}
         options={options}
-        selectProps={{ placeholder }}
       />
     ),
   },
@@ -131,10 +131,10 @@ export default function (options, onCreate) {
       render: ({ name, placeholder }, value, onChange) => (
         <Creatable
           name={name}
+          placeholder={placeholder}
           value={value}
           onChange={onChange}
           options={options}
-          selectProps={{ placeholder }}
 
           // Passed through for Creatable selects
           onCreate={onCreate}

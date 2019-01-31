@@ -62,7 +62,7 @@ class FormSelect extends React.Component {
     }
 
     render() {
-        const { options, selectProps } = this.props;
+        const { options, placeholder, selectProps } = this.props;
         const { loading, index } = this.state;
 
         return (
@@ -73,6 +73,7 @@ class FormSelect extends React.Component {
                 value={index > -1 ? options[index] : null}
                 onChange={this.internalSelect}
                 onCreateOption={this.internalCreate}
+                placeholder={placeholder}
                 {...selectProps}
             />
         );
