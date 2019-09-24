@@ -10,10 +10,6 @@ class FormSelect extends React.Component {
 
         const { value, options } = props;
 
-        this.state = {
-            index: Util.findIndex(value, options),
-        };
-
         this.internalSelect = this.internalSelect.bind(this);
     }
 
@@ -39,18 +35,14 @@ class FormSelect extends React.Component {
 
         Util.internalSelect(
             this.props,
-            value,
-            () => (
-                this.setState({
-                    index: Util.findIndex(value, options)
-                })
-            )
+            value
         );
     }
 
     render() {
         const { options, placeholder, selectProps } = this.props;
-        const { index } = this.state;
+
+        const index = Util.findIndex(value, options);
 
         return (
             <Select
